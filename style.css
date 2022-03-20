@@ -3,13 +3,13 @@
     padding: 0;
 }
 .container{
-    width: 1300px;
+    width: 1350px;
     height: auto;
     background: linear-gradient(to left, #9c27b0,#8ecd);
 }
 ul{
     position: absolute;
-    top: 1%;
+    top: 2%;
     right: 1%;
 }
 ul li{
