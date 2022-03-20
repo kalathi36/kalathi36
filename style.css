@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container{
-    width: 100px;
+    width: 1000px;
     height: auto;
     background: linear-gradient(to left, #9c27b0,#8ecd);
 }
