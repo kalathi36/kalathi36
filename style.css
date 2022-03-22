@@ -2,36 +2,62 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    width: 1350px;
-    height: auto;
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
     background: linear-gradient(to left, #9c27b0,#8ecd);
 }
-ul{
-    position: absolute;
-    top: 2%;
-    right: 1%;
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
 }
-ul li{
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
     list-style: none;
     display: inline-block;
-    margin-right: 50px;
+    margin: 20px;
+    
 }
-ul li a{
-    text-decoration:none;
-    font-family: 'Lucida Sans';
-    font-weight: bold;
-    color: rgb(255, 255, 255);
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
 }
 .thumbnail li{
-   list-style: none;
-   position: relative;
-}
-.thumbnail img{
-    display: block;
-    max-width: 1300px;
-}
-.products{
+    list-style: none;
+    position: relative;
+    margin-top: 2cm;
+ }
+ .thumbnail img{
+     display: block;
+     max-width: 1300px;
+ }
+ .products{
     padding: 7%;
 }
 .products li{
@@ -64,4 +90,32 @@ ul li a{
 .details img:hover{
     transform: translateZ(30px);
     transition: 0.5s;
+}
+
+#home{
+    background: linear-gradient(to left, #9c27b0,#8ecd);
+}
+
+#about{
+    background: linear-gradient(to left, #9c27b0,#8ecd);
+}
+
+#product{
+    background: linear-gradient(to left, #9c27b0,#8ecd);
+}
+
+#pricing{
+    background: linear-gradient(to left, #9c27b0,#8ecd);
+}
+
+#contact{
+    background: linear-gradient(to left, #9c27b0,#8ecd);
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
 }
